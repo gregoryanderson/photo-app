@@ -1,0 +1,20 @@
+{
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-photo-app-production-115300-authRole",
+            "UnauthRoleArn": "arn:aws:iam::295396191837:role/amplify-photo-app-production-115300-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::295396191837:role/amplify-photo-app-production-115300-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-photo-app-production-115300-deployment",
+            "UnauthRoleName": "amplify-photo-app-production-115300-unauthRole",
+            "StackName": "amplify-photo-app-production-115300",
+            "StackId": "arn:aws:cloudformation:us-east-2:295396191837:stack/amplify-photo-app-production-115300/48e1ef90-80d4-11ea-a9f5-06d398e7edd6",
+            "AmplifyAppId": "d3h3uzu0fv86je"
+        },
+        "categories": {
+            "auth": {
+                "cognito2e16d90a": {}
+            }
+        }
+    }
+}

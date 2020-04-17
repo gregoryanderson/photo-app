@@ -1,0 +1,48 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "photoappd4eec9d7",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "api8be1764d",
+    "apiName": "api8be1764d",
+    "functionArns": [
+        {
+            "lambdaFunction": "photoappd4eec9d7"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-photo-app-production-115300-authRole",
+        "unAuthRoleName": "amplify-photo-app-production-115300-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "photoappd4eec9d7",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
